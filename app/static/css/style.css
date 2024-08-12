@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  .navbar {
+    background-color: #34568B;
+  }
+  
+  .btn-primary {
+    background-color: #88B04B;
+    border-color: #88B04B;
+  }
+  
+  .form-label {
+    color: #34568B;
+  }
+  
+  .logo {
+    max-width: 30%;
+    height: auto;
+    padding: 20px;
+  }
+  
+  .footer {
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .form-box {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px 0;
+  }
+  
+  .btn-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
